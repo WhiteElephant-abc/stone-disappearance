@@ -1,6 +1,6 @@
 {
     "pack": {
         "description": "原生版本：Java1.21；兼容：1.21.3 - 1.19.4",
-        "supported_formats": [16, 57]
+        "supported_formats": [16, 50]
     }
 }
