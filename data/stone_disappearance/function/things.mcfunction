@@ -1,8 +1,8 @@
 effect give @a minecraft:night_vision infinite
 effect give @a minecraft:glowing infinite
-execute if score @s glass matches 0 run tag @e[type=falling_block] add kill
+execute as @a if score @s glass matches 0 run tag @e[type=falling_block] add kill
 execute as @a if score @s glass matches 0 at @s run tag @e[type=falling_block,distance=..10] remove kill
-execute if score @s glass matches 0 run kill @e[tag=kill]
+execute as @a if score @s glass matches 0 run kill @e[tag=kill]
 execute as @a if score @s glass matches 0 at @s run fill ~30 ~30 ~30 ~-30 -64 ~-30 air replace deepslate
 execute as @a if score @s glass matches 0 at @s run fill ~30 ~30 ~30 ~-30 -64 ~-30 air replace stone
 execute as @a if score @s glass matches 2 at @s run fill ~30 ~30 ~30 ~-30 -64 ~-30 glass replace deepslate
