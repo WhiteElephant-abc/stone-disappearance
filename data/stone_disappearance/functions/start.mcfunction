@@ -7,6 +7,6 @@ tellraw @a "无限夜视已启用"
 tellraw @a "玩家发光已启用"
 scoreboard objectives add glass trigger
 scoreboard players enable @a glass
-scoreboard players set @a glass 0
+#scoreboard players set @a glass 0
 tellraw @a [{"text": "本数据包使用 ","bold": true},{"text":"GNU GPL","color":"blue","underlined":true,"italic":true,"clickEvent":{"action":"open_url","value":"https://www.gnu.org/licenses/gpl-3.0.txt"}},{"text": " 协议开源","bold": true}]
 tellraw @a ""
