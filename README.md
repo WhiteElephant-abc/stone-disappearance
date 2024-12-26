@@ -6,6 +6,6 @@
 
 数据包启用后会为玩家提供无限夜视、发光，并开启死亡不掉落。
 
-如果遇到任何问题，请点击 [这里](https://github.com/WhiteElephant-abc/anvil-falling/issues/new) 反馈
+如果遇到任何问题，请点击 [这里](https://github.com/WhiteElephant-abc/stone-disappearance/issues/new) 反馈
 
 如果无法访问，可点击 [这里](https://steampp.net/) 下载加速器
