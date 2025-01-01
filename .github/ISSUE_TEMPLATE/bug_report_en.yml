@@ -19,7 +19,7 @@ Body:
       - Label: I have updated the mod to the latest version.
         Required: true
 - Type: input
-  Id: Verison
+  Id: Version
   Attributes:
     Label: Version
     Description: The mod version, Minecraft version, and loader you were using when you found this bug.
@@ -37,13 +37,13 @@ Body:
       3. xxx
   Validations:
     Required: true
-- Type: textarea
-  Id: UploadLog
-  Attributes:
-    Label: Remarks
-    Description: [Optional] Upload your launcher log and your game log (usually in `.minecraft\versions\<version folder>\logs`).
-  Validations:
-    Required: false
-- Type: markdown
-  Attributes:
-    Value: "### 🎉 | Thank you for your support of this mod!" 
+- type: textarea
+  id: UploadLog
+  attributes:
+    label: "Remarks"
+    description: "[Optional] Upload your launcher log and your game log (usually in `.minecraft\versions\<version folder>\logs`)."
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: "### 🎉 | Thank you for your support of this mod!"
