@@ -1,49 +1,49 @@
-name: 🐛 | Bug Submission
-description: 🎤 | Submit the bugs you've found in this mod.
-title: "[BUG]: "
-labels: ["BUG"]
-body:
-- type: markdown
-  attributes:
-    value: "# 🎁 | Welcome to fill in the bug feedback for this mod!"
-- type: checkboxes
-  id: BUG_Prefeedback
-  attributes:
-    label: Checklist
-    description: "Before submitting, please confirm the following:"
-    options:
-      - label: This bug has not been submitted before.
-        required: true
-      - label: The fix for this bug is not in the PR.
-        required: true
-      - label: I have updated the mod to the latest version.
-        required: true
-- type: input
-  id: Version
-  attributes:
-    label: Version
-    description: The mod version, Minecraft version, and loader you were using when you found this bug.
-    placeholder: "Mod version: vx.x.x; Minecraft version: x.x.x; Mod loader: ***"
-  validations:
-    required: true
-- type: textarea
-  id: BUGInMSS3_Retry
-  attributes:
-    label: Reproduction Steps
-    description: Please briefly describe how to trigger this bug.
-    placeholder: |
+Name: 🐛 | Bug Submission
+Description: 🎤 | Submit the bugs you've found in this mod.
+Title: "[BUG]: "
+Labels: ["BUG"]
+Body:
+- Type: markdown
+  Attributes:
+    Value: "# 🎁 | Welcome to fill in the bug feedback for this mod!"
+- Type: checkboxes
+  Id: BUG_Prefeedback
+  Attributes:
+    Label: Checklist
+    Description: "Before submitting, please confirm the following:"
+    Options:
+      - Label: This bug has not been submitted before.
+        Required: true
+      - Label: The fix for this bug is not in the PR.
+        Required: true
+      - Label: I have updated the mod to the latest version.
+        Required: true
+- Type: input
+  Id: Verison
+  Attributes:
+    Label: Version
+    Description: The mod version, Minecraft version, and loader you were using when you found this bug.
+    Placeholder: "Mod version: vx.x.x; Minecraft version: x.x.x; Mod loader: ***"
+  Validations:
+    Required: true
+- Type: textarea
+  Id: BUGInMSS3_Retry
+  Attributes:
+    Label: Reproduction Steps
+    Description: Please briefly describe how to trigger this bug.
+    Placeholder: |
       1. xxx
       2. xxx
       3. xxx
-  validations:
-    required: true
-- type: textarea
-  id: UploadLog
-  attributes:
-    label: Remarks
-    description: [Optional] Upload your launcher log and your game log (usually in `.minecraft\versions\<version folder>\logs`).
-  validations:
-    required: false
-- type: markdown
-  attributes:
-    value: "### 🎉 | Thank you for your support of this mod!" 
+  Validations:
+    Required: true
+- Type: textarea
+  Id: UploadLog
+  Attributes:
+    Label: Remarks
+    Description: [Optional] Upload your launcher log and your game log (usually in `.minecraft\versions\<version folder>\logs`).
+  Validations:
+    Required: false
+- Type: markdown
+  Attributes:
+    Value: "### 🎉 | Thank you for your support of this mod!" 
