@@ -3,7 +3,7 @@ tellraw @a [{"text": "| Stone Disappearance "},{"type":"translatable","translate
 tellraw @a [{"text": "| "},{"text":"by white_elephant_","color":"blue","underlined":true,"italic":true,"clickEvent":{"action":"open_url","value":"https://modrinth.com/user/white_elephant"}}]
 tellraw @a "| "
 tellraw @a [{"text": "| "},{"type":"translatable","translate":"license.white.elephant.use","fallback":"本数据包使用","bold": true},{"text": " "},{"text":"GNU GPL","color":"blue","underlined":true,"italic":true,"clickEvent":{"action":"open_url","value":"https://www.gnu.org/licenses/gpl-3.0.txt"}},{"text": " "},{"type":"translatable","translate":"license.white.elephant.open.source","fallback":"协议开源","bold": true}]
-tellraw @a {"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"| "}
+tellraw @a {"type":"translatable","translate":"no.resource.pack.white.elephant.a","fallback":"| "}
 tellraw @a [{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"| "},{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"WARNING: No localization","color":"red","bold":true}]
 tellraw @a [{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"| "},{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"resource package detected.","color":"red","bold":true}]
 tellraw @a [{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"| "},{"type":"translatable","translate":"no.resource.pack.white.elephant.nothing","fallback":"You can click the link below,"}]
