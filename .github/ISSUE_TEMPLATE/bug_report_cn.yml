@@ -1,7 +1,7 @@
 name: 🐛 | BUG 提交
 description: 🎤 | 提交您发现的此模组中的 BUG
 title: "[BUG]: "
-labels: ["BUG"]
+labels: [ "bug" ]
 body:
 - type: markdown
   attributes:
@@ -19,7 +19,7 @@ body:
       - label: 我已将模组更新到最新版本
         required: true
 - type: input
-  id: Version
+  id: Verison
   attributes:
     label: 版本
     description: 您发现此 BUG 使用的模组版本、Minecraft 版本以及加载器
