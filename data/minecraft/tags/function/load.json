@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "stone_disappearance:start"
+        "stone_disappearance:start",
+        "unif.logger:load"
     ]
 }
