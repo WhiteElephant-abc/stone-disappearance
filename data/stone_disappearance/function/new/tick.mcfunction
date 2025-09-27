@@ -6,7 +6,7 @@ execute unless function stone_disappearance:new/if_loaded run \
 execute unless function stone_disappearance:new/if_loaded run \
     return fail
 
-execute if function stone_disappearance:new/fill run return run \
+execute if function stone_disappearance:new/parent_fill run return run \
     function #unif.logger:logger/v1/info \
     {"msg":'fill在原位置成功',"namespace":"Stone-Disappearance"}
 

@@ -21,7 +21,7 @@ execute if score loaded temp.chunk.child matches 0 run \
 execute if score loaded temp.chunk.child matches 0 run return 1
 
 execute store success score success temp.chunk run \
-    function stone_disappearance:new/child_fill with storage stone_disappearance:temp.chunk
+    function stone_disappearance:new/fill with storage stone_disappearance:temp.chunk
 
 execute if score success temp.chunk matches 1 run return 1
 execute if score n temp.chunk.child matches 0 run return fail
