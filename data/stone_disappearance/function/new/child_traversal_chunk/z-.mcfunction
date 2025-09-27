@@ -15,7 +15,9 @@ execute store result storage stone_disappearance:temp.chunk b_z int 1 run \
 execute store success score loaded temp.chunk.child run function stone_disappearance:new/child_if_loaded with storage stone_disappearance:temp.chunk
 execute if score loaded temp.chunk.child matches 0 run \
     function #unif.logger:logger/v1/debug \
-    {"msg":'loaded在递归中检测失败',"namespace":"Stone-Disappearance"}
+    {"msg":'loaded在递归z-中检测失败',"namespace":"Stone-Disappearance"}
+execute if score loaded temp.chunk.child matches 0 run \
+    scoreboard players set success temp.chunk 1
 execute if score loaded temp.chunk.child matches 0 run return 1
 
 execute store success score success temp.chunk run \
