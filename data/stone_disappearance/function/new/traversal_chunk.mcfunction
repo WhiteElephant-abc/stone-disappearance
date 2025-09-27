@@ -1,4 +1,4 @@
-execute if score n temp.chunk >= n sd.settings run return run \
+execute if score n temp.chunk >= n sd.settings run \
     function #unif.logger:logger/v1/debug \
     {"msg":'n到达设定上限',"namespace":"Stone-Disappearance"}
 execute if score n temp.chunk >= n sd.settings run return run scoreboard players get n temp.chunk
