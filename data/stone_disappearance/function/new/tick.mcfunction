@@ -17,6 +17,6 @@ execute store result score x.a temp.chunk run data get storage stone_disappearan
 execute store result score z.a temp.chunk run data get storage stone_disappearance:find_chunk pos.a_z
 execute store result score x.b temp.chunk run data get storage stone_disappearance:find_chunk pos.b_x
 execute store result score z.b temp.chunk run data get storage stone_disappearance:find_chunk pos.b_z
-function stone_disappearance:new/traversal_chunk
+execute store result score n sd.debug run function stone_disappearance:new/traversal_chunk
 scoreboard objectives remove temp.chunk
 scoreboard objectives remove temp.chunk.child
