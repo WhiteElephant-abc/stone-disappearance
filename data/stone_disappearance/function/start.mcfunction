@@ -16,3 +16,4 @@ scoreboard objectives add glass trigger
 scoreboard players enable @a glass
 #scoreboard players set @a glass 0
 scoreboard objectives add sd.debug dummy
+scoreboard objectives add sd.settings dummy
