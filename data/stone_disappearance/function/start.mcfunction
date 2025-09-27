@@ -17,3 +17,6 @@ scoreboard players enable @a glass
 #scoreboard players set @a glass 0
 scoreboard objectives add sd.debug dummy
 scoreboard objectives add sd.settings dummy
+
+function #unif.logger:logger/v1/tips \
+    {"msg":'初始化成功',"namespace":"Stone-Disappearance"}
